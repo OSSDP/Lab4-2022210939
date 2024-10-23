@@ -138,8 +138,8 @@ public class L2022210939_18_Test {
      */
     @Test
     public void testProductExceptSelf_OneZero() {
-        int[] nums = {1, 0, 3, 4};
         int[] expected = {0, 12, 0, 0};
+        int[] nums = {1, 0, 3, 4};
         assertArrayEquals(expected, solution.productExceptSelf(nums));
     }
 }
